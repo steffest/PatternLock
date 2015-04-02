@@ -114,3 +114,15 @@ body{
 	margin:26px -26px -24px 26px;
 	visibility:hidden;
 }
+
+.patternreset{
+    position: relative;
+    color: #5A5A5A;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.patternreset:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

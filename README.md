@@ -9,12 +9,13 @@ Works on every major desktop and mobile browser.
 (This repository was moved from https://9dotpatternlock.codeplex.com/)
 
 Example use
+Copy the _img,_script and _style folders to your hosting
 Copy these 2 lines in your HTML source
 
 &lt;link rel="stylesheet" type="text/css" href="_style/patternlock.css"/>  
 &lt;script src="_script/patternlock.js">&lt;/script>  
 
 give your password input element the className "patternlock"  
-e.g. &lt;input type="password" name="password" class="patternlock">  
+e.g. &lt;input type="password" name="password" class="patternlock">
 
 Live demo at http://www.stef.be/dev/javascript/patternlock/
