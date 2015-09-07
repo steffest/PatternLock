@@ -76,11 +76,11 @@ var patternLock = (function () {
 
         // horizontal lines
         var linesTag = document.createElement("div");
-        linesTag.className = "patternlocklineshorizontalcontainer";
+        linesTag.className = "patternlocklineshorizontalcontainer boxsizingcontentbox";
         var elid=["12","23","45","56","78","89"];
         for (var i=0;i<6;i++){
             var lineTag = document.createElement("div");
-            lineTag.className = "patternlocklinehorizontal";
+            lineTag.className = "patternlocklinehorizontal boxsizingcontentbox";
             lineTag.id = "line" + elid[i];
             lines.push(lineTag);
             linesTag.appendChild(lineTag);
@@ -89,11 +89,11 @@ var patternLock = (function () {
 
         // vertical lines
         linesTag = document.createElement("div");
-        linesTag.className = "patternlocklinesverticalcontainer";
+        linesTag.className = "patternlocklinesverticalcontainer boxsizingcontentbox";
         elid=["14","25","36","47","58","69"];
         for (var i=0;i<6;i++){
             var lineTag = document.createElement("div");
-            lineTag.className = "patternlocklinevertical";
+            lineTag.className = "patternlocklinevertical boxsizingcontentbox";
             lineTag.id = "line" + elid[i];
             lines.push(lineTag);
             linesTag.appendChild(lineTag);
@@ -102,11 +102,11 @@ var patternLock = (function () {
 
         // diagonal lines
         linesTag = document.createElement("div");
-        linesTag.className = "patternlocklinesdiagonalcontainer";
+        linesTag.className = "patternlocklinesdiagonalcontainer boxsizingcontentbox";
         elid=["24","35","57","68"];
         for (var i=0;i<4;i++){
             var lineTag = document.createElement("div");
-            lineTag.className = "patternlocklinediagonalforward";
+            lineTag.className = "patternlocklinediagonalforward boxsizingcontentbox";
             lineTag.id = "line" + elid[i];
             lines.push(lineTag);
             linesTag.appendChild(lineTag);
@@ -115,10 +115,10 @@ var patternLock = (function () {
 
         linesTag = document.createElement("div");
         elid=["15","26","48","59"];
-        linesTag.className = "patternlocklinesdiagonalcontainer";
+        linesTag.className = "patternlocklinesdiagonalcontainer boxsizingcontentbox";
         for (var i=0;i<4;i++){
             var lineTag = document.createElement("div");
-            lineTag.className = "patternlocklinediagonalbackwards";
+            lineTag.className = "patternlocklinediagonalbackwards boxsizingcontentbox";
             lineTag.id = "line" + elid[i];
             lines.push(lineTag);
             linesTag.appendChild(lineTag);
